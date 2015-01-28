@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="dropShadow">
+        <item name="android:foreground">@drawable/drawer_shadow</item>
+        <item name="android:foregroundGravity">top|fill_horizontal</item>
+    </style>
+
+</resources>
