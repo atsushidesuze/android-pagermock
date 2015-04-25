@@ -1,0 +1,19 @@
+language: android
+
+android:
+  components:
+    - tools
+    - build-tools-19.0.1
+    - android-19
+    - sysimg-19
+    - extra-android-support
+  licenses:
+    - android-sdk-license-bcbbd656
+    - '.*intel.+'
+    
+branches:
+  only:
+    - master
+    
+script:
+  - ./gradlew assembleDebug
